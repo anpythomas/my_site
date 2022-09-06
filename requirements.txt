@@ -1,5 +1,5 @@
-alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
-anaconda-client @ file:///opt/concourse/worker/volumes/live/1ce006cc-6454-4d7d-4ed8-8b41941b64eb/volume/anaconda-client_1624480173054/work
+alabaster==0.7.12
+anaconda-client==1.2.2
 anaconda-navigator==2.2.0
 anaconda-project @ file:///tmp/build/80754af9/anaconda-project_1626085644852/work
 anyio @ file:///opt/concourse/worker/volumes/live/64740ac7-3a9c-4fbb-6685-a51c4ff8b4ca/volume/anyio_1617783319350/work/dist
