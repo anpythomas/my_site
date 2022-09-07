@@ -1,9 +1,9 @@
 from flask import Flask, render_template
-import flask_bootstrap
+from flask_bootstrap import Bootstrap
 
 
 app = Flask(__name__)
-flask_bootstrap.Bootstrap(app)
+Bootstrap(app)
 
 
 @app.route("/")
