@@ -107,11 +107,11 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family: "Noto Serif Hong Kong", "Playfair Display", Oswald, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  letter-spacing: .2rem;
 }
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
+  letter-spacing: 0rem;
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -121,6 +121,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
+  letter-spacing: .2rem;
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -3032,13 +3033,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #4F98CA;
+  border-color: #4F98CA;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #16a085;
-  border-color: #15967d;
+  background-color: #272727;
+  border-color: #272727;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -3422,7 +3423,6 @@ textarea.form-control-lg {
 
 .btn-outline-light {
   color: #f8f9fa;
-  border-color: #f8f9fa;
 }
 .btn-outline-light:hover {
   color: #000;
@@ -7237,8 +7237,8 @@ textarea.form-control-lg {
 }
 
 .mx-1 {
-  margin-right: 0.25rem !important;
-  margin-left: 0.25rem !important;
+  margin-right: .5rem !important;
+  margin-left: .5rem !important;
 }
 
 .mx-2 {
@@ -7375,6 +7375,7 @@ textarea.form-control-lg {
 
 .mb-4 {
   margin-bottom: 1.5rem !important;
+  text-align: left;
 }
 
 .mb-5 {
@@ -11511,6 +11512,14 @@ html {
 /* added... */
 #heading-first{
     text-align: center;
+    font-size: 82px;
 }
 
+#heading-second{
+    text-align: center;
+    font-size: 36px;
+}
 
+#heading-p{
+    font-size: 22px;
+}
