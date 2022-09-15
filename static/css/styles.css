@@ -240,9 +240,12 @@ sup {
 
 a {
   text-decoration: underline;
+  opacity: .8;
 }
+
 a:hover {
-  color: #15967d;
+  color: #007bff;
+  opacity: 1;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3043,13 +3046,15 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #4F98CA;
-  border-color: #4F98CA;
+  background-color: #000;
+  border-color: #000;
+  opacity: .8;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #272727;
-  border-color: #272727;
+  background-color: #000;
+  border-color: #000;
+  opacity: 1;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -11382,7 +11387,7 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: #4F98CA;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
@@ -11413,7 +11418,7 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: #4F98CA;
   }
 
   #mainNav.navbar-shrink {
