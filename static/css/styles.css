@@ -11552,6 +11552,11 @@ html {
     text-align: center;
     font-size: .9rem
 }
+
+.ctr-about-sep{
+    padding-top: 150px;
+}
+
 #heading-first{
     text-align: center;
     font-size: 82px;
