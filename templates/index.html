@@ -5,8 +5,6 @@
 <html lang="en">
 
 {% include "header.html"%}
-{% block body %}
-{% endblock %}
 
 <body id="page-top">
 <!-- Navigation-->
@@ -27,7 +25,7 @@
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a>
                 </li>
-                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{{ url_for('about') }}">About</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Reach
                     Out</a></li>
@@ -115,21 +113,16 @@
         </div>
     </div>
 </section>
-<!-- About Section-->
-<section class="page-section bg-primary text-white mb-0" id="about">
-    <div class="container container-about">
-        <h1 class="lead-h1">I'm a self-taught, full stack developer with an obsession for automation, big data and
-            web-design.</h1><br><br>
-        <p class="lead-p">Skills include Python, C, HTML, CSS, Bootstrap, OOP, Flask, Selenium, Beautiful Soup, Pandas
-            and more...</p>
 
-    </div>
-</section>
+<!--About Section (Previously)-->
+
+
 <!-- Contact Section-->
 <section class="page-section bg-primary" id="contact">
     <div class="container">
         <!-- Contact Section Heading-->
-        <div class="reach-out-div">Interested in chatting? You can find me on <a
+        <div class="reach-out-div">
+            Interested in chatting? You can find me on <a
                 href="https://www.linkedin.com/in/andythomasdotpy/" target=”_blank”>LinkedIn</a> or at
             <a href="mailto:andythomas.py@gmail.com">andythomas.py@gmail.com</a>
         </div>
