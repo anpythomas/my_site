@@ -11310,7 +11310,7 @@ html {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding-top: 6rem;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -11448,7 +11448,6 @@ html {
 }
 
 .masthead {
-  padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
@@ -11468,7 +11467,7 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
+    padding-top: calc(5rem + 104px);
     padding-bottom: 0;
   }
   .masthead .masthead-heading {
@@ -11570,8 +11569,27 @@ html {
 #heading-p{
     font-size: .8rem;
     letter-spacing: .1rem;
+    text-align: center;
+    margin-bottom: 4rem;
 }
 
 #about-div{
     text-align: center;
+}
+
+.abt-spacing-text{
+    margin: auto;
+    width: 80%;
+}
+
+.abt-align-h1{
+    text-align: left;
+    font-size: 1.5rem;
+}
+.abt-align-p{
+    text-align: left;
+    font-size: 1.25rem;
+    opacity: .8;
+    margin-top: 3rem;
+    padding-top: 1rem;
 }

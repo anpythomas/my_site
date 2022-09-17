@@ -23,9 +23,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a>
                 </li>
-                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{{ url_for('about') }}">About</a>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Reach
                     Out</a></li>
@@ -34,33 +34,35 @@
     </div>
 </nav>
 <!-- Masthead-->
-<header class="masthead bg-primary text-white text-center">
-    <div class="container d-flex align-items-center flex-column">
-        <!-- Masthead Avatar Image-->
-        <img class="masthead-avatar mb-5" src="static/assets/img/avatar_1.jpeg" alt="..."/>
+<!--<section class="page-section bg-primary text-white mb-0" id="about">-->
+<section class="page-section bg-primary text-white mb-0" id="about">
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5" src="static/assets/img/avatar_1.jpeg" alt="..."/>
 
-        <!-- Masthead Heading-->
-        <h1 id="heading-first" class="masthead-heading mb-0">Hi, I'm Andy.</h1>
-        <br>
-        <h3 id="heading-second" class="masthead-heading mb-0">A Python Developer.</h3>
-        <!-- Icon Divider-->
-        <br>
+            <!-- Masthead Heading-->
+            <h1 id="heading-first" class="masthead-heading mb-0">Hi, I'm Andy</h1>
+            <br>
+            <h3 id="heading-second" class="masthead-heading mb-0">A Python Developer.</h3>
+            <!-- Icon Divider-->
+            <br>
+            <p class="lead-p abt-align-p">I'm a self-taught, full stack developer with an obsession for automation, big data and web-design</p>
 
-        <!--                 Masthead Subheading-->
-        <p id="heading-p" class="masthead-subheading mb-0">Website built, deployed and run by Andy Thomas (view source
-            code for additional credits and inspiration).</p>
-    </div>
 
-    <!--                </div>-->
-</header>
+
+        </div>
+
+        <!--                </div>-->
+    </header>
+</section>
+<!--</section>-->
 <!-- Portfolio Section-->
 <section class="page-section portfolio bg-primary" id="portfolio">
     <div class="container">
 
         <!-- Icon Divider-->
-        <div class="divider-custom">
 
-        </div>
         <!-- Portfolio Grid Items-->
         <div class="row justify-content-center">
             <!-- Portfolio Item 1-->
@@ -123,17 +125,12 @@
         <!-- Contact Section Heading-->
         <div class="reach-out-div">
             <h1 class="lead-h1">Interested in chatting?</h1><br>
-            <p class="lead-p">You can find me on <a href="https://www.linkedin.com/in/andythomasdotpy/" target=”_blank”>LinkedIn</a> or by email at <a href="mailto:andythomas.py@gmail.com">andythomas.py@gmail.com</a></p>
-
-        </div>
-
-        <!-- Icon Divider-->
-        <div class="divider-custom">
-            <br>
-
+            <p class="lead-p">You can find me on <a href="https://www.linkedin.com/in/andythomasdotpy/" target=”_blank”>LinkedIn</a> or at <a href="mailto:andythomas.py@gmail.com">andythomas.py@gmail.com</a></p>
+            <br><br><br><br><br><br>
         </div>
     </div>
 </section>
+
 
 <!-- Portfolio Modals-->
 <!-- Portfolio Modal 1-->
