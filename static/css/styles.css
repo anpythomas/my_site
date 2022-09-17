@@ -11558,12 +11558,12 @@ html {
 
 #heading-first{
     text-align: center;
-    font-size: 82px;
+    font-size: 5rem;
 }
 
 #heading-second{
     text-align: center;
-    font-size: 36px;
+    font-size: 2.5rem;
 }
 
 #heading-p{
@@ -11592,4 +11592,8 @@ html {
     opacity: .8;
     margin-top: 3rem;
     padding-top: 1rem;
+}
+
+.page-section-contact{
+    padding-top: 10rem;
 }
