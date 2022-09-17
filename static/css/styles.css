@@ -11597,3 +11597,7 @@ html {
 .page-section-contact{
     padding-top: 10rem;
 }
+
+#txt-size-contact-p{
+    font-size: 1.1rem;
+}
