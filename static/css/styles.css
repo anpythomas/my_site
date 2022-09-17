@@ -11588,10 +11588,9 @@ html {
 }
 .abt-align-p{
     text-align: left;
-    font-size: 1.25rem;
     opacity: .8;
-    margin-top: 3rem;
-    padding-top: 1rem;
+    margin-bottom: .2rem;
+    margin-top: 4rem;
 }
 
 .page-section-contact{
@@ -11600,4 +11599,10 @@ html {
 
 #txt-size-contact-p{
     font-size: 1.1rem;
+}
+
+.abt-align-p-2{
+    text-align: left;
+    opacity: .8;
+
 }
