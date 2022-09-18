@@ -120,12 +120,6 @@ h1, .h1 {
   }
 }
 
-@media (max-width: 1200px) {
-    h1 .h1{
-        font-size: 10px;
-    }
-}
-
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
   letter-spacing: .2rem;
@@ -11456,9 +11450,10 @@ html {
 .masthead {
   padding-bottom: 6rem;
 }
-
-
-
+.masthead .masthead-heading {
+  font-size: 2.75rem;
+  line-height: 2.75rem;
+}
 .masthead .masthead-subheading {
   font-size: 1.25rem;
   margin-top: 75px;
@@ -11470,8 +11465,19 @@ html {
   border-radius: 50%;
 }
 
-
-
+@media (min-width: 992px) {
+  .masthead {
+    padding-top: calc(5rem + 104px);
+    padding-bottom: 0;
+  }
+  .masthead .masthead-heading {
+    font-size: 4rem;
+    line-height: 3.5rem;
+  }
+  .masthead .masthead-subheading {
+    font-size: 1.5rem;
+  }
+}
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
@@ -11581,7 +11587,7 @@ html {
     font-size: 1.5rem;
 }
 .abt-align-p{
-    text-align: left;
+    text-align: center;
     opacity: .8;
     margin-bottom: .2rem;
     margin-top: 4rem;
