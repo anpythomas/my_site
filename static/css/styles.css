@@ -120,6 +120,12 @@ h1, .h1 {
   }
 }
 
+@media (min-width: 900px) {
+    h1 .h1{
+        font-size: 1rem;
+    }
+}
+
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
   letter-spacing: .2rem;
@@ -11602,7 +11608,7 @@ html {
 }
 
 .abt-align-p-2{
-    text-align: left;
+    text-align: center;
     opacity: .8;
 
 }
