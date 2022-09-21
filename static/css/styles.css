@@ -11637,6 +11637,9 @@ html {
     .page-section-contact {
         padding-top: 5rem !important
     }
+    p {
+        text-align: left !important;
+    }
 }
 
 @media (max-width: 370px) {
@@ -11645,5 +11648,17 @@ html {
     }
     .page-section-contact {
         padding-top: 5rem !important
+    }
+    h2 {
+        font-size: 1.25rem !important
+    }
+    p {
+        text-align: left !important;
+    }
+}
+
+@media (max-width: 325px) {
+    h2 {
+        font-size: 1.25rem !important
     }
 }
