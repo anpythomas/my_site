@@ -11624,16 +11624,26 @@ html {
     h1 {
         font-size: 4rem !important;
     }
+
+    .page-section-contact {
+        padding-top: 7rem !important
+    }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 428px) {
     h1 {
         font-size: 3.5rem !important;
+    }
+    .page-section-contact {
+        padding-top: 5rem !important
     }
 }
 
 @media (max-width: 370px) {
     h1 {
         font-size: 3rem !important;
+    }
+    .page-section-contact {
+        padding-top: 5rem !important
     }
 }
