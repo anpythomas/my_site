@@ -11553,6 +11553,7 @@ html {
 .reach-out-div{
     text-align: center;
     font-size: .9rem
+    margin-bottom: 7rem !important;
 }
 
 .ctr-about-sep{
@@ -11562,16 +11563,16 @@ html {
 #heading-first{
     text-align: center;
     font-size: 5rem;
-    padding-top: 1 rem;
-    padding-bottom: 1rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
 
 }
 
 #heading-second{
     text-align: center;
     font-size: 5rem;
-    padding-top: 1 rem;
-    padding-bottom: 1rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
 }
 
 #heading-p{
@@ -11603,10 +11604,12 @@ html {
 
 .page-section-contact{
     padding-top: 10rem;
+    padding-bottom: 10rem !important;
 }
 
-#txt-size-contact-p{
-    font-size: 1.1rem;
+.txt-size-contact-p{
+    font-size: 1.1rem !important;
+    padding-top: 1.5rem !important;
 }
 
 .abt-align-p-2{
@@ -11614,7 +11617,6 @@ html {
     opacity: .8;
 
 }
-
 
 .ptf-img-space{
     margin-top: 5rem;
@@ -11638,7 +11640,7 @@ html {
         padding-top: 5rem !important
     }
     p {
-        text-align: left !important;
+        text-align: center !important;
     }
 }
 
@@ -11653,7 +11655,7 @@ html {
         font-size: 1.25rem !important
     }
     p {
-        text-align: left !important;
+        text-align: center !important;
     }
 }
 
@@ -11661,4 +11663,8 @@ html {
     h2 {
         font-size: 1.25rem !important
     }
+}
+
+.contact-spacing {
+    padding-bottom: 8rem;
 }
