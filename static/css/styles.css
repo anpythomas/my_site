@@ -11629,11 +11629,27 @@ html {
         padding-top: 1%;
     }
 }
+
+
+@media (max-width: 995px) {
+    .abt-section-div-p {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 1%;
+    }
+}
+
+@media (max-width: 775px) {
+    h1{
+        font-size: 4.5rem !important;
+    }
 }
 
 @media (max-width: 770px) {
-    h1{
-        font-size: 1rem !important;
+    .abt-section-div-p {
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 1%;
     }
 }
 
@@ -11644,6 +11660,14 @@ html {
 
     .page-section-contact {
         padding-top: 7rem !important
+    }
+}
+
+@media (max-width: 536px) {
+    .abt-section-div-p {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 1%;
     }
 }
 
