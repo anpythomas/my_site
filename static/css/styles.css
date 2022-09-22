@@ -11607,9 +11607,14 @@ html {
     padding-bottom: 10rem !important;
 }
 
-.txt-size-contact-p{
+.txt-size-about-p{
     font-size: 1.1rem !important;
     padding-top: 2.5rem !important;
+}
+
+.txt-size-contact-p{
+    font-size: 1.1rem !important;
+    padding-top: 1rem !important;
 }
 
 .abt-align-p-2{
