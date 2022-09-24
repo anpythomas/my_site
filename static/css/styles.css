@@ -11713,4 +11713,22 @@ html {
     padding-bottom: 8rem;
 }
 
+#rcorners1 {
+  border-radius: 30px;
+  border: 5px solid #000;
+}
 
+#rcorners2 {
+  border-radius: 30px;
+  border: 5px solid #000;
+}
+
+#rcorners3 {
+  border-radius: 30px;
+  border: 5px solid #000;
+}
+
+#rcorners4 {
+  border-radius: 30px;
+  border: 5px solid #000;
+}
