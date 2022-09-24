@@ -11732,3 +11732,9 @@ html {
   border-radius: 30px;
   border: 5px solid #000;
 }
+
+@media (max-width: 991px) {
+    .page-section{
+        padding: 2rem;
+    }
+}
