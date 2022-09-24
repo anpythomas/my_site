@@ -11735,6 +11735,6 @@ html {
 
 @media (max-width: 991px) {
     .page-section{
-        padding: 2rem;
+        padding-top: 3rem;
     }
 }
