@@ -11733,8 +11733,3 @@ html {
   border: 5px solid #000;
 }
 
-@media (max-width: 991px) {
-    .page-section{
-        padding-top: 3rem;
-    }
-}
