@@ -11539,6 +11539,8 @@ html {
 .spacing-portfolio-imgs {
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .container-about{
@@ -11713,30 +11715,71 @@ html {
     padding-bottom: 8rem;
 }
 
-#rcorners1 {
-  border-radius: 0px;
+@media (max-width: 1024px) {
+    .spacing-portfolio-imgs {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    #container-projects {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #rcorners1 {
+      border-radius: 0px;
+    }
+
+    #rcorners2 {
+      border-radius: 0px;
+    }
+
+    #rcorners3 {
+      border-radius: 0px;
+    }
+
+    #rcorners4 {
+      border-radius: 0px;
+    }
 }
 
-#rcorners2 {
-  border-radius: 0px;
-}
 
-#rcorners3 {
-  border-radius: 0px;
-}
-
-#rcorners4 {
-  border-radius: 0px;
-}
-
-#container-projects {
-    padding-left: 0px;
-    padding-right: 0px
-}
-
-/* Up to max-width of 1024px (ipad pro 13")
+/* up to max-width 1024px (ipad pro 13" or smaller)
 @media (max-width: 1024px) {
     #bg-min {
         background-color: red;
+    }
+}
+*/
+
+@media (min-width: 1025px) {
+    #container-projects {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .spacing-portfolio-imgs {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    }
+
+    #rcorners1 {
+      border-radius: 1rem;
+    }
+
+    #rcorners2 {
+      border-radius: 1rem;
+    }
+
+    #rcorners3 {
+      border-radius: 1rem;
+    }
+
+    #rcorners4 {
+      border-radius: 1rem;
     }
 }
