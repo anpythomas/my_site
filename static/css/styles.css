@@ -11734,6 +11734,7 @@ html {
 
     #rcorners2 {
       border-radius: 0px;
+      border: .25rem solid #555;
     }
 
     #rcorners3 {
@@ -11773,6 +11774,7 @@ html {
 
     #rcorners2 {
       border-radius: 1rem;
+      border: .25rem solid #555;
     }
 
     #rcorners3 {
