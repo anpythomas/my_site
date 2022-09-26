@@ -11733,3 +11733,10 @@ html {
     padding-left: 0px;
     padding-right: 0px
 }
+
+/* Up to max-width of 1024px (ipad pro 13")
+@media (max-width: 1024px) {
+    #bg-min {
+        background-color: red;
+    }
+}
