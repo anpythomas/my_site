@@ -11733,3 +11733,7 @@ html {
   border: 5px solid #000;
 }
 
+#container-projects {
+    padding-left: 0px;
+    padding-right: 0px
+}
