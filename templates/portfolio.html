@@ -1,0 +1,330 @@
+{% include "header.html"%}
+
+<body id="page-top">
+<!-- Navigation-->
+
+<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/andythomasdotpy?tab=repositories"
+           target=”_blank”><i
+                class="fab fa-fw fa-github"></i></a>
+        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/andythomasdotpy/"
+           target=”_blank”><i
+                class="fab fa-fw fa-linkedin-in"></i></a>
+
+        <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{{ url_for('portfolio') }}">Portfolio</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+<!-- Portfolio Section-->
+<section class="page-section portfolio bg-primary" id="portfolio">
+    <div class="container" id="container-projects ptflo-ctr-margin">
+        <div class="container pt-5 pb-5">
+            <h1 class="text-center">Portfolio</h1>
+        </div>
+
+        <!-- Portfolio Grid Items-->
+        <div class="row justify-content-center">
+
+            <!-- Portfolio Item 1-->
+            <div class="col-md-12 col-lg-12 text-center divider-custom spacing-portfolio-imgs">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white" ><i
+                                class="fas fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid img-main-pg" id="rcorners1" src="static/assets/img/portfolio/pappy-1.png" alt="..."/>
+                </div>
+            </div>
+            <div class="ptf-img-space"></div>
+
+            <!-- Portfolio Item 2-->
+            <div class="col-md-12 col-lg-12 text-center divider-custom spacing-portfolio-imgs">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white"><i
+                                class="fas fa-plus fa-3x"></i></div>
+                    </div>
+                    <img class="img-fluid img-main-pg img-border" id="rcorners2" src="static/assets/img/portfolio/jupyter_cover.png" alt="..."/>
+                </div>
+            </div>
+            <div class="ptf-img-space"></div>
+
+                        <!-- Portfolio Item 3-->
+            <div class="col-md-12 col-lg-12 text-center divider-custom spacing-portfolio-imgs">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white" ><i
+                                class="fas fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img class="img-fluid img-main-pg" id="rcorners3" src="static/assets/img/portfolio/my_site_ss.png" alt="..."/>
+                </div>
+            </div>
+            <div class="ptf-img-space"></div>
+
+            <!-- Portfolio Item 4-->
+            <div class="col-md-12 col-lg-12 text-center divider-custom spacing-portfolio-imgs">
+                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white"><i
+                                class="fas fa-plus fa-3x"></i></div>
+                    </div>
+                    <img class="img-fluid img-main-pg" id="rcorners4" src="static/assets/img/portfolio/house_1500x1000.png" alt="..."/>
+                </div>
+            </div>
+            <div class="ptf-img-space"></div>
+
+
+            <div></div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Portfolio Modals-->
+<!-- Portfolio Modal 1-->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
+     aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <!-- Portfolio Modal - Title-->
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Booggle</h2>
+
+                            <!-- Portfolio Modal - Text-->
+                            <br><br>
+                            <p class="mb-4">
+                                I collect rare whiskey. Unfortunately, it's difficult to find secondary pricing data. I
+                                built Booggle to help fellow enthusiasts value their collections. This tool scrapes and
+                                plots sales data. Built with Django, hosted on AWS using Postgres DB Engine, this site
+                                is scalable and currently growing. Still a work in progress... Cheers 🥃
+                            </p>
+                            <p>
+                                Source code posted on private Github repo.
+                                Please contact me for a redacted version.
+                            </p>
+
+                            <a href="https://booggle.link" target=”_blank”>View site here
+                                </a><br><br><br>
+                            <button type="button" class="btn btn-primary" disabled>Django</button>
+                            <button type="button" class="btn btn-primary" disabled>AWS</button>
+                            <button type="button" class="btn btn-primary" disabled>Postgres</button>
+                            <button type="button" class="btn btn-primary" disabled>REST API</button>
+                            <button type="button" class="btn btn-primary" disabled>Pandas</button>
+                            <button type="button" class="btn btn-primary" disabled>Matplotlib</button><br><br><br>
+
+                            <!-- Portfolio Modal - Image-->
+                            <img class="img-fluid rounded mb-5"
+                                 src="static/assets/img/portfolio/whiskey-auctioneer-simple.png" alt="..."/>
+                            <img class="img-fluid rounded mb-5"
+                                 src="static/assets/img/portfolio/whisky-valuator-chart.png" alt="..."/>
+                            <button class="btn btn-primary" data-bs-dismiss="modal">
+                                <i class="fas fa-xmark fa-fw"></i>
+                                Close Window
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Modal 2-->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2"
+     aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <!-- Portfolio Modal - Title-->
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">The Covid Dataset</h2>
+                            <br><br>
+
+                            <!-- Portfolio Modal - Text-->
+                            <p class="mb-4">
+                                Analyzing raw data from two different online sources.The goal? Has the correlation between new Covid cases to ICU Occupancy changed
+                                over time.
+                            </p>
+
+                            <a href="https://github.com/andythomasdotpy/Covid_Data_Set/blob/main/Covid_Dataset-092522.ipynb" target=”_blank”>view source
+                                code on GitHub
+                                (click here)</a>
+                            <br><br><br>
+
+                            <button type="button" class="btn btn-primary" disabled>Jupyter Notebook</button>
+                            <button type="button" class="btn btn-primary" disabled>Data Science</button>
+                            <button type="button" class="btn btn-primary" disabled>Pandas</button>
+                            <button type="button" class="btn btn-primary" disabled>Matplotlib</button>
+                            <button type="button" class="btn btn-primary" disabled>Seaborn</button>
+                            <br><br><br>
+
+                            <!-- Portfolio Modal - Image-->
+                            <img class="img-fluid rounded mb-5" src="static/assets/img/portfolio/notebook1.png" alt="...">
+                            <img class="img-fluid rounded mb-5" src="static/assets/img/portfolio/notebook2.png"
+                                 alt="...">
+
+
+                            <button class="btn btn-primary" data-bs-dismiss="modal">
+                                <i class="fas fa-xmark fa-fw"></i>
+                                Close Window
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Portfolio Modal 3-->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3"
+     aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <!-- Portfolio Modal - Title-->
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Portfolio Website</h2>
+                            <br><br>
+
+                            <!-- Portfolio Modal - Text-->
+                            <p class="mb-4">
+                                A simple, lightweight portfolio website. I built, deployed and currently manage this site.
+                                Minimalist design. Constructed using Flask Web Framework. Deployed on Render.com.
+                            </p>
+
+                            <a href="https://github.com/andythomasdotpy/my_site" target=”_blank”>view source
+                                code on GitHub
+                                (click here)</a>
+                            <br><br><br>
+
+                            <button type="button" class="btn btn-primary" disabled>Flask</button>
+                            <button type="button" class="btn btn-primary" disabled>HTML</button>
+                            <button type="button" class="btn btn-primary" disabled>CSS</button>
+                            <button type="button" class="btn btn-primary" disabled>Bootstrap</button><br><br><br>
+
+                            <!-- Portfolio Modal - Image-->
+                            <img class="img-fluid rounded mb-5" src="static/assets/img/portfolio/zillow.png" alt="...">
+<!--                            <img class="img-fluid rounded mb-5" src="static/assets/img/portfolio/google_forms.png"
+                                 alt="...">-->
+
+
+                            <button class="btn btn-primary" data-bs-dismiss="modal">
+                                <i class="fas fa-xmark fa-fw"></i>
+                                Close Window
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Portfolio Modal 4-->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4"
+     aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <!-- Portfolio Modal - Title-->
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Real Estate Prices</h2>
+                            <br><br>
+
+                            <!-- Portfolio Modal - Text-->
+                            <p class="mb-4">
+                                This program helps real estate developers with their pricing strategy. It scrapes requested
+                                information from an online resource and auto-uploads data to the clients Google Forms
+                                account. (The source code is for an older iteration of the program. The current version
+                                removes outliers
+                                <a href="https://github.com/andythomasdotpy/RE_Valuation_Tool/blob/master/filter_algo.py"
+                                   target=”_blank”>(view algo source code)
+                                </a>
+                                , allows
+                                filtering of land size, provides the client with price per acre and the average price
+                                of similar lots in the area.)
+                            </p>
+
+                            <a href="https://github.com/andythomasdotpy/RE_Valuation_Tool" target=”_blank”>view source
+                                code on GitHub
+                                (click here)</a>
+                            <br><br><br>
+
+                            <button type="button" class="btn btn-primary" disabled>Object Oriented Programming</button>
+                            <button type="button" class="btn btn-primary" disabled>Selenium</button>
+                            <button type="button" class="btn btn-primary" disabled>Google Sheets</button>
+                            <button type="button" class="btn btn-primary" disabled>Web Scraping</button><br><br><br>
+
+                            <!-- Portfolio Modal - Image-->
+                            <img class="img-fluid rounded mb-5" src="static/assets/img/portfolio/zillow.png" alt="...">
+<!--                            <img class="img-fluid rounded mb-5" src="static/assets/img/portfolio/google_forms.png"
+                                 alt="...">-->
+
+
+                            <button class="btn btn-primary" data-bs-dismiss="modal">
+                                <i class="fas fa-xmark fa-fw"></i>
+                                Close Window
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="static/js/scripts.js"></script>
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+<!-- * *                               SB Forms JS                               * *-->
+<!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>

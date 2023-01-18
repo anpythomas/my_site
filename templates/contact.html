@@ -1,10 +1,9 @@
-<!--Original Template found at https://startbootstrap.com/theme/freelancer-->
-<!--site design inspired by https://www.seanhalpin.design/-->
-
 {% include "header.html"%}
+
 
 <body id="page-top">
 <!-- Navigation-->
+
 <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
     <div class="container">
         <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/andythomasdotpy?tab=repositories"
@@ -14,6 +13,7 @@
            target=”_blank”><i
                 class="fab fa-fw fa-linkedin-in"></i></a>
 
+
         <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +22,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{{ url_for('index') }}">About</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="{{ url_for('portfolio') }}">Portfolio</a>
                 </li>
@@ -32,39 +32,20 @@
     </div>
 </nav>
 
-<!-- Masthead-->
-<section class="page-section bg-primary text-white mb-0 page-section-about" id="about">
-    <header class="masthead bg-primary text-white text-center">
-        <div class="container d-flex align-items-center flex-column">
-            <!-- Masthead Avatar Image-->
-            <img class="masthead-avatar mb-5" src="static/assets/img/avatar_1.jpeg" alt="..."/>
 
-            <!-- Masthead Heading-->
-            <div class="abt-section-text-div">
-                <h1 id="heading-first" class="masthead-heading mb-0 mobile-friendly">Hi, I'm Andy.</h1>
-                <h1 id="heading-second" class="masthead-heading mb-0 mobile-friendly">A Developer.</h1>
-                <!-- Icon Divider-->
-<!--                <p class="lead-p txt-size-about-p abt-section-div-p">I'm a self-taught, full stack Python Developer-->
-<!--                    fascinated with <em>automation</em>, <em>big data,</em> and <em>web-design</em>.-->
-<!--                </p>-->
-                <div class="container mt-5">
-                    <p class="mb-1">
-                        Welcome to my portfolio site. Minimalist design. Built with Flask. Hosted on Heroku.com.
-                    </p>
-                    <p class="pt-0 mt-0">
-                        I'm a full stack Python Developer fascinated with <em>automation</em>, <em>big data,
-                        </em> and <em>web-design</em>.
-                    </p>
-                </div>
-            </div>
+
+<!-- Contact Section-->
+<!--<section class="page-section bg-primary page-section-contactg" id="contact" style="padding: 10rem 0;">-->
+    <div class="container">
+        <!-- Contact Section Heading-->
+        <div class="reach-out-div">
+            <h2 class="lead-h1">Interested in chatting?</h2>
+            <p class="lead-p txt-size-contact-p">You can find me on <a
+                    href="https://www.linkedin.com/in/andythomasdotpy/" target=”_blank”>LinkedIn</a> or at <a
+                    href="mailto:andythomas.py@gmail.com">andythomas.py@gmail.com</a></p>
         </div>
-    </header>
-</section>
+    </div>
 <!--</section>-->
-
-
-
-
 
 <!-- Bootstrap core JS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -76,5 +57,3 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
 <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
-
-<!--https://andythomasdotpy.herokuapp.com/-->
