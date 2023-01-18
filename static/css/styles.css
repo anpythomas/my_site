@@ -11729,22 +11729,22 @@ html {
     }
 
     #rcorners1 {
-      border-radius: 0px;
+      border-radius: 1rem;
       border: .25rem solid #555;
     }
 
     #rcorners2 {
-      border-radius: 0px;
+      border-radius: 1rem;
       border: .25rem solid #555;
     }
 
     #rcorners3 {
-      border-radius: 0px;
+      border-radius: 1rem;
       border: .25rem solid #555;
     }
 
     #rcorners4 {
-      border-radius: 0px;
+      border-radius: 1rem;
       border: .25rem solid #555;
     }
 }
