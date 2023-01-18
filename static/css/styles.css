@@ -11606,7 +11606,7 @@ html {
 
 .page-section-contact{
     padding-top: 6rem;
-    padding-bottom: 4rem !important;
+    padding-bottom: 10rem !important;
 }
 
 .txt-size-about-p{
@@ -11667,7 +11667,7 @@ html {
 
     .page-section-contact {
         padding-top: 4rem !important
-        padding-bottom: 4rem;
+        padding-bottom: 10rem;
     }
 }
 
@@ -11685,7 +11685,7 @@ html {
     }
     .page-section-contact {
         padding-top: 3rem !important;
-        padding-bottom: 4rem;
+        padding-bottom: 6rem;
     }
     p {
         text-align: center !important;
@@ -11698,7 +11698,7 @@ html {
     }
     .page-section-contact {
         padding-top: 3rem !important;
-        padding-bottom: 4rem;
+        padding-bottom: 6rem;
     }
     h2 {
         font-size: 1.25rem !important
