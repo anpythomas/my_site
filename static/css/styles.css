@@ -11606,7 +11606,7 @@ html {
 
 .page-section-contact{
     padding-top: 6rem;
-    padding-bottom: 10rem !important;
+    padding-bottom: 10rem;
 }
 
 .txt-size-about-p{
@@ -11679,13 +11679,21 @@ html {
     }
 }
 
+@media (max-width: 458px) {
+    .page-section-contact {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+
 @media (max-width: 428px) {
     h1 {
         font-size: 3.5rem !important;
     }
     .page-section-contact {
         padding-top: 3rem !important;
-        padding-bottom: 6rem;
+        padding-bottom: 3rem;
     }
     p {
         text-align: center !important;
@@ -11697,8 +11705,8 @@ html {
         font-size: 3rem !important;
     }
     .page-section-contact {
-        padding-top: 3rem !important;
-        padding-bottom: 6rem;
+        padding-top: 2rem !important;
+        padding-bottom: 3rem;
     }
     h2 {
         font-size: 1.25rem !important
@@ -11776,22 +11784,22 @@ html {
 
     #rcorners1 {
       border-radius: 1rem;
-      border: .25rem solid #555;
+      border: 2px solid #555;
     }
 
     #rcorners2 {
       border-radius: 1rem;
-      border: .25rem solid #555;
+      border: 2px solid #555;
     }
 
     #rcorners3 {
       border-radius: 1rem;
-      border: .25rem solid #555;
+      border: 2px solid #555;
     }
 
     #rcorners4 {
       border-radius: 1rem;
-      border: .25rem solid #555;
+      border: 2px solid #555;
     }
 }
 
@@ -11803,6 +11811,12 @@ html {
 
 .sub-head-div {
     width: 650px;
+}
+
+@media (max-width: 991px) {
+    .page-section {
+        padding-top: 9rem;
+    }
 }
 
 @media (max-width: 775px) {
