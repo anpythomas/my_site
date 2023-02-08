@@ -11794,3 +11794,35 @@ html {
       border: .25rem solid #555;
     }
 }
+
+.sub-head-font {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.sub-head-div {
+    width: 650px;
+}
+
+@media (max-width: 775px) {
+    .sub-head-font {
+        font-size: 18px;
+        font-weight: 400;
+        color: black;
+    }
+    .sub-head-div {
+        width: 85%;
+    }
+}
+
+@media (max-width: 510px) {
+    .sub-head-font {
+        font-size: 18px;
+        font-weight: 400;
+        color: black;
+    }
+    .sub-head-div {
+        width: 92%;
+    }
+}
