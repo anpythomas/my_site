@@ -12,13 +12,8 @@ def home():
 
 @app.route("/download")
 def download_resume():
-    path = "Andy_Thomas_Tech_Res_Gen2.pdf"
+    path = "Andy_Thomas_Resume_Gen4A.pdf"
     return send_file(path, as_attachment=True)
-
-#
-# @app.route("/about")
-# def about():
-#     return render_template("about.html")
 
 
 if __name__ == '__main__':
