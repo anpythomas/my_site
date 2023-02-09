@@ -502,7 +502,7 @@ progress {
 
 .lead-p {
   font-size: calc(.65rem + .5vw);
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
   opacity: .8;
 }
@@ -11312,10 +11312,12 @@ html {
 .page-section {
   padding-top: 6rem;
 }
+
 .page-section .page-section-heading {
   font-size: 2.25rem;
   line-height: 2rem;
 }
+
 @media (min-width: 992px) {
   .page-section .page-section-heading {
     font-size: 3rem;
@@ -11872,7 +11874,13 @@ html {
         color: black;
     }
     .page-section {
-        padding-top: 6rem;
+        padding-top: 10rem;
+    }
+    #portfolio {
+        padding-top: 6rem
+    }
+    #contact {
+        padding-top: 5rem;
     }
 }
 
