@@ -11741,25 +11741,49 @@ html {
 
     #rcorners1 {
       border-radius: 1rem;
-      border: .25rem solid #555;
+      border: 1px solid #555;
     }
 
     #rcorners2 {
       border-radius: 1rem;
-      border: .25rem solid #555;
+      border: 1px solid #555;
     }
 
     #rcorners3 {
       border-radius: 1rem;
-      border: .25rem solid #555;
+      border: 1px solid #555;
     }
 
     #rcorners4 {
       border-radius: 1rem;
-      border: .25rem solid #555;
+      border: 1px solid #555;
     }
 }
 
+@media (max-width: 575px) {
+    #rcorners1 {
+      border-radius: 1px;
+      border: none;
+    }
+
+    #rcorners2 {
+      border-radius: 1px;
+      border: none;
+    }
+
+    #rcorners3 {
+      border-radius: 1px;
+      border-top: 0px;
+      border-left: 0px;
+      border-bottom: .5px solid black;
+      border-right: 0px;
+    }
+
+    #rcorners4 {
+      border-radius: 1px;
+      border: none;
+    }
+}
 
 /* up to max-width 1024px (ipad pro 13" or smaller)
 @media (max-width: 1024px) {
@@ -11838,5 +11862,16 @@ html {
     }
     .sub-head-div {
         width: 92%;
+    }
+}
+
+@media (max-width: 575px) {
+    .sub-head-font {
+        font-size: 18px;
+        font-weight: 400;
+        color: black;
+    }
+    .page-section {
+        padding-top: 6rem;
     }
 }
