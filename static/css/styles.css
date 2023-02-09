@@ -11875,3 +11875,8 @@ html {
         padding-top: 6rem;
     }
 }
+
+.p-skill-tags {
+    font-style: italic;
+    color: grey;
+}
