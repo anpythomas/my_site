@@ -12,7 +12,7 @@ def home():
 
 @app.route("/download")
 def download_resume():
-    path = "Andy_Thomas_Resume_Gen4A.pdf"
+    path = "Andy_Thomas_Resume_G4A copy.pdf"
     return send_file(path, as_attachment=True)
 
 
