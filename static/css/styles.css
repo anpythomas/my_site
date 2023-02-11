@@ -7337,7 +7337,7 @@ textarea.form-control-lg {
 }
 
 .mt-5 {
-  margin-top: 3rem !important;
+  margin-top: 2.25rem !important;
 }
 
 .mt-auto {
@@ -11766,17 +11766,22 @@ html {
     #rcorners1 {
       border-radius: 1px;
       border: none;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
     }
 
     #rcorners2 {
       border-radius: 1px;
       border: none;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
     }
 
     #rcorners3 {
       border-radius: 1px;
       border-top: 0px;
       border-left: 0px;
+      border-top: 1px solid black;
       border-bottom: 1px solid black;
       border-right: 0px;
     }
@@ -11784,6 +11789,8 @@ html {
     #rcorners4 {
       border-radius: 1px;
       border: none;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
     }
 }
 
@@ -11836,7 +11843,7 @@ html {
 }
 
 .sub-head-div {
-    width: 650px;
+    width: 600px;
 }
 
 @media (max-width: 991px) {
