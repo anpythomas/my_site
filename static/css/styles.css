@@ -7277,8 +7277,8 @@ textarea.form-control-lg {
 }
 
 .mx-auto {
-  margin-right: auto !important;
-  margin-left: auto !important;
+    margin-right: 5% !important;
+    margin-left: 5% !important;
 }
 
 .my-0 {
@@ -11764,33 +11764,39 @@ html {
 
 @media (max-width: 575px) {
     #rcorners1 {
-      border-radius: 1px;
+      border-radius: 10px;
       border: none;
       border-top: 1px solid black;
       border-bottom: 1px solid black;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
     }
 
     #rcorners2 {
-      border-radius: 1px;
+      border-radius: 10px;
       border: none;
       border-top: 1px solid black;
       border-bottom: 1px solid black;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
     }
 
     #rcorners3 {
-      border-radius: 1px;
-      border-top: 0px;
-      border-left: 0px;
-      border-top: 1px solid black;
-      border-bottom: 1px solid black;
-      border-right: 0px;
-    }
-
-    #rcorners4 {
-      border-radius: 1px;
+      border-radius: 10px;
       border: none;
       border-top: 1px solid black;
       border-bottom: 1px solid black;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+    }
+
+    #rcorners4 {
+      border-radius: 10px;
+      border: none;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
     }
 }
 
